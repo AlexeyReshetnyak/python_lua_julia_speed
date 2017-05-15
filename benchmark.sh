@@ -9,3 +9,8 @@ printf "\n"
 echo 'Lua'
 time lua primes.lua
 printf "\n"
+
+echo 'C++'
+g++ primes.cpp -lm -o primes
+time ./primes
+printf "\n"

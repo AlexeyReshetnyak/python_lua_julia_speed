@@ -20,4 +20,4 @@ def calculate_primes(n):
         p += 1
     return primes
 
-calculate_primes(100000)
+calculate_primes(1000000)

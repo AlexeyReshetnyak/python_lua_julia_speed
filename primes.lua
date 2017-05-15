@@ -27,4 +27,4 @@ function calculate_primes(n)
   return primes
 end
 
-calculate_primes(100000)
+calculate_primes(1000000)
