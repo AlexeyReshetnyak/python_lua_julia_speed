@@ -14,7 +14,17 @@ echo 'LuaJit'
 time luajit primes.lua
 printf "\n"
 
-echo 'C++'
-g++ primes.cpp -lm -o primes
+echo 'C++ -O0'
+g++ primes.cpp -O0 -lm -o primes
+time ./primes
+printf "\n"
+
+echo 'C++ -O2'
+g++ primes.cpp -O2 -lm -o primes
+time ./primes
+printf "\n"
+
+echo 'C++ -O3'
+g++ primes.cpp -O3 -lm -o primes
 time ./primes
 printf "\n"
