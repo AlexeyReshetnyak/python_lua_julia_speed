@@ -28,3 +28,9 @@ echo 'C++ -O3'
 g++ primes.cpp -O3 -lm -o primes
 time ./primes
 printf "\n"
+
+echo 'Plain C -O2'
+gcc primes.c -O2 -lm -o cprimes
+time ./cprimes
+printf "\n"
+

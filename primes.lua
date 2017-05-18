@@ -5,7 +5,7 @@ function is_prime(n)
   if n % 2 == 0 then
     return false
   end
-  for a = 3, math.ceil(math.sqrt(n) + 1) do
+  for a = 3, math.ceil(math.sqrt(n)) + 1 do
     if n % a == 0 then
       return false
     end
