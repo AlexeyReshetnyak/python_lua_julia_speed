@@ -16,7 +16,7 @@ end
 function calculate_primes(n)
   primes = {}
   p = 1
-  for i = 0, n do
+  for i = 1, n do
     while is_prime(p) ~= true do
       p = p + 1
     end
